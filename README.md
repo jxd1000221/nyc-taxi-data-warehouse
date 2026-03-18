@@ -40,3 +40,19 @@ ADS	        ads_trip_summary	       最后给 Tableau 用的数据，直接从 D
 4. **平均车费 vs 平均小费散点图**：点的大小代表订单量，揭示车费与小费的正相关关系，并定位高价值区域。
 
 仪表盘截图位于 `visualization/dashboard.png`
+📂 项目结构
+text
+nyc-taxi-data-warehouse/
+├── README.md
+├── .gitignore
+├── hive/
+│   ├── ods/01_create_ods_table_csv.sql
+│   ├── dwd/02_clean_and_insert_dwd.sql
+│   ├── dws/03_dws_aggregation.sql
+│   └── ads/04_ads_summary.sql
+├── docs/
+│   └── optimization.md          # 优化过程随手记的
+├── visualization/
+│   └── dashboard.png            # Tableau 截图
+├── airflow/                      # 以后加调度
+└── spark/                        # 以后加 Spark 版本
