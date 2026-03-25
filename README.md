@@ -1,7 +1,8 @@
 NYC Taxi Data Warehouse Project
 📌 项目概述
 本项目基于纽约市出租车与礼车委员会（TLC）公开的2025年1月黄色出租车行程数据，构建了一套完整的离线数据仓库。项目涵盖了从数据导入、清洗、建模、性能优化到可视化的全流程，旨在通过真实数据展示大数据开发的工程实践与业务分析能力。
-
+![alt text](84afecd14941be2bf51a5821ba470248.png)
+![alt text](dashboard.png)
 数据规模：约347万条原始行程记录，清洗后281万条
 
 数据来源：NYC TLC Trip Record Data
